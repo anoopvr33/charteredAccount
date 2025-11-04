@@ -1,0 +1,187 @@
+.image-upload {
+  width: 40%;
+  max-width: 100rem;
+  margin: 30px auto;
+  box-shadow: 5px 5px 30px rgba(224, 201, 255, 0.416);
+  /* border: 2px solid rgb(85, 158, 241); */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 40px 0px 40px 0px;
+  justify-content: space-around;
+}
+.image-upload .spinner {
+  /* width: 1000px; */
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-map {
+  width: 70%;
+  height: 280px;
+  /* border-radius: 20px; */
+  margin-top: 0px;
+  /* border: 2px solid gray; */
+  padding: 20px 10px;
+  /* overflow-x: scroll; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: rgba(164, 139, 255, 0.067);
+  gap: 6px;
+  /* border-style: dashed; */
+  overflow-y: hidden;
+}
+.image-map button {
+  margin: auto;
+}
+table {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+th {
+  background-image: linear-gradient(
+    40deg,
+    rgb(164, 139, 255),
+    rgb(124, 90, 245)
+  );
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+td {
+  border: 2px solid rgb(164, 139, 255);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.image-upload .heads-1 {
+  /* line-height: 15px; */
+}
+.image-upload h1 {
+  color: rgb(124, 90, 245);
+  /* background-color: aliceblue; */
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+}
+.image-upload p {
+  text-align: center;
+  padding: 10px;
+  color: rgb(183, 183, 183);
+  /* background-color: aqua; */
+}
+.image-upload .icon {
+  width: 150px;
+}
+.image-upload .bills-img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 0px auto;
+  /* object-fit: cover; */
+  border-radius: 20px;
+  /* height: 250px; */
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.btns-2 {
+  border: none;
+  /* display: flex; */
+  gap: 15px;
+}
+.btns-3 {
+  display: flex;
+  gap: 10px;
+}
+.btns-2 button {
+  /* position: absolute; */
+  right: 10px;
+  /* float: right; */
+  font-size: 18px;
+  width: 200px;
+  font-weight: 600;
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    40deg,
+    rgb(164, 139, 255),
+    rgb(124, 90, 245)
+  );
+  box-shadow: 5px 10px 15px rgba(164, 139, 255, 0.434);
+  border-radius: 10px;
+  border: none;
+}
+.btns button:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    40deg,
+    rgb(164, 139, 255),
+    rgb(124, 90, 245)
+  );
+  box-shadow: 5px 10px 15px rgba(164, 139, 255, 0.434);
+  /* background-color: rgb(124, 90, 245); */
+  /* box-shadow: inset 5px 5px 5px rgb(211, 199, 255),
+    inset -5px -5px 5px rgb(91, 66, 181); */
+}
+.btns button:nth-child(2) {
+  background-color: rgb(242, 66, 134);
+}
+.image-map button {
+  display: grid;
+  gap: 0px;
+  /* background-color: aqua; */
+  height: fit-content;
+  color: rgb(124, 90, 245);
+  background-color: rgba(255, 250, 240, 0);
+  border: none;
+}
+.image-map button:active {
+  transform: scale(0.7);
+  transition: 0.3s ease-in;
+}
+.image-map i {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: rgba(124, 90, 245, 0.312);
+  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  color: rgba(124, 90, 245, 0.997);
+  place-content: center;
+  /* padding: 10px; */
+}
+picture {
+  width: fit-content;
+  margin: auto;
+  position: relative;
+}
+.btns button {
+  border: none;
+  /* padding: 10px 20px; */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* border-style: dotted; */
+  border-radius: 10px;
+  /* background-color: rgb(255, 255, 255); */
+}
+.btns button:active {
+  transform: scale(0.91);
+  transition: 0.5s ease-in;
+}
+.btns-3 button:active {
+  transform: scale(0.7);
+  transition: 0.5s ease-in;
+}
+.btns i {
+  font-size: 20px;
+}
